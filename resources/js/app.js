@@ -31,6 +31,16 @@ addToCart.forEach((btn) =>{
         updateCart(food)
     })
 })
+// $('#product').on('click','.remove-item',function(){
+//     $(this).closest('li').remove();// remove the closest li item row
+// });
+
+remove-item.forEach((btn) =>{
+    btn.removeEventListener('click', (e) =>{
+        let food = JSON.parse(btn.dataset.food)
+        updateCart(food)
+    })
+})
 
 const alertMsg = document.querySelector('#success-alert')
 if(alertMsg) {

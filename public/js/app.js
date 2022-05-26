@@ -26847,6 +26847,15 @@ addToCart.forEach(function (btn) {
     var food = JSON.parse(btn.dataset.food);
     updateCart(food);
   });
+}); // $('#product').on('click','.remove-item',function(){
+//     $(this).closest('li').remove();// remove the closest li item row
+// });
+
+remove - item.forEach(function (btn) {
+  btn.removeEventListener('click', function (e) {
+    var food = JSON.parse(btn.dataset.food);
+    updateCart(food);
+  });
 });
 var alertMsg = document.querySelector('#success-alert');
 

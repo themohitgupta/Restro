@@ -45,6 +45,19 @@ nav li a {
         outline:none;
     }
 }
+.remove-to-cart{
+    border: 2px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary;
+        border-color:$pure;
+        color: $pure;
+    }
+    &:focus{
+        outline:none;
+    }
+}
 
 // empty cart
 

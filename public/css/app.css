@@ -356,6 +356,22 @@ nav li a:hover {
   outline: none;
 }
 
+.remove-to-cart {
+  border: 2px solid #fe5f1e;
+  color: #fe5f1e;
+  transition: all 0.3s ease-in-out;
+}
+
+.remove-to-cart:hover {
+  background: #fe5f1e;
+  border-color: #fff;
+  color: #fff;
+}
+
+.remove-to-cart:focus {
+  outline: none;
+}
+
 .section.cart {
   background: #f8f8f8;
 }
