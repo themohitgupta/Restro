@@ -28,6 +28,7 @@ yarn add laravel-mix@5.0.4 nodemon@2.0.4 resolve-url-loader@3.1.0 sass@1.26.9 sa
 # Dependencies
 
 yarn add @babel/plugin-proposal-class-properties@7.12.1 @material-ui/core@4.12.3 @material-ui/icons@4.11.2 @stripe/stripe-js@1.10.0 axios@0.19.2 bcrypt@5.0.0 connect-mongo@3.2.0 cross-env@7.0.2 dotenv@16.0.0 ejs@3.1.3 express@4.17.1 express-ejs-layouts@2.5.0 express-flash@0.0.2 express-session@1.17.1 moment@2.27.0 mongoose@5.9.25 noty@3.2.0-beta passport@0.4.1 passport-local@1.0.0 socket.io@2.3.0 stripe@8.118.0
+
 run yarn install commad
 
 # Step 7
