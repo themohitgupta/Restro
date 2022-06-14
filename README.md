@@ -1,3 +1,6 @@
+# Credit
+Coder's Gyan Realtime Pizza app Playlist
+https://youtube.com/playlist?list=PLXQpH_kZIxTVRmXQN9J0Az76te5mAreLV
 # Restro
 Restro is an realtime food delivery and tracking website
 # To Run This Project
