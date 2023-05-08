@@ -3,7 +3,7 @@ Restro is an realtime food delivery and tracking website
 # To Run This Project
 
 # Step 1
-Install Nodejs, MongoDB and yarn 
+Install Nodejs v16, MongoDB and yarn 
 
 # Step 2
 open project in vs code
@@ -20,6 +20,8 @@ Open Project In vs code the open terminal
 
 # step 6
 # insall dependencies using following command
+
+yarn install or npm install
 
 # DevDependencies
 

@@ -26822,6 +26822,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var addToCart = document.querySelectorAll('.add-to-cart');
 var cartCounter = document.querySelector('#cartCounter');
+var removefromcart = document.querySelectorAll('.remove-from-cart');
 
 function updateCart(food) {
   axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/update-cart', food).then(function (res) {
@@ -26847,11 +26848,8 @@ addToCart.forEach(function (btn) {
     var food = JSON.parse(btn.dataset.food);
     updateCart(food);
   });
-}); // $('#product').on('click','.remove-item',function(){
-//     $(this).closest('li').remove();// remove the closest li item row
-// });
-
-remove - item.forEach(function (btn) {
+});
+removefromcart.forEach(function (btn) {
   btn.removeEventListener('click', function (e) {
     var food = JSON.parse(btn.dataset.food);
     updateCart(food);
