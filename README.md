@@ -46,3 +46,8 @@ Open browser and go to localhost:3300 or type 127.0.0.1:3300
 
 # To Make a Admin
 As all the register user are role as customer, so to Make a admin resgister using the registration form on website and the goto mongoDB compass then to user database after the open users collection and look for user details you want to make admin, once found change role from customer to admin
+
+
+# Credit
+Coder's Gyan Realtime Pizza app Playlist
+https://youtube.com/playlist?list=PLXQpH_kZIxTVRmXQN9J0Az76te5mAreLV
